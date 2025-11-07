@@ -1,0 +1,60 @@
+# ---- Node.js dependencies ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# ---- Environment files ----
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ---- Logs ----
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ---- System files ----
+.DS_Store
+Thumbs.db
+
+# ---- Build outputs ----
+dist/
+build/
+.cache/
+.temp/
+out/
+
+# ---- IDE / Editor folders ----
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ---- React specific ----
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# ---- Backend specific ----
+backend/node_modules/
+backend/uploads/
+backend/videos/
+backend/.env
+
+# ---- Test coverage ----
+coverage/
+
+# ---- Misc ----
+*.swp
+*.bak
+*.tmp
+*.log
